@@ -1,0 +1,22 @@
+{
+    "name": "GameCore.Notifications",
+    "rootNamespace": "GameCore",
+    "references": [
+        "Unity.Notifications.Android"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.mobile.notifications",
+            "expression": "2.1.0",
+            "define": "GAMECORE_NOTIFICATIONS"
+        }
+    ],
+    "noEngineReferences": false
+}

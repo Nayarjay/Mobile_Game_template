@@ -1,0 +1,12 @@
+<!-- Classes du moteur à garder dans le build même si aucune scène ne les contient.
+     GameObject.CreatePrimitive (sphère, cylindre, cube, plan) ajoute ces collisions par leur nom :
+     sans cette liste, le build les retire et écrit l'erreur
+     « Can't add component because class 'SphereCollider' doesn't exist ». -->
+<linker>
+  <assembly fullname="UnityEngine.PhysicsModule">
+    <type fullname="UnityEngine.SphereCollider" preserve="all"/>
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all"/>
+    <type fullname="UnityEngine.BoxCollider" preserve="all"/>
+    <type fullname="UnityEngine.MeshCollider" preserve="all"/>
+  </assembly>
+</linker>

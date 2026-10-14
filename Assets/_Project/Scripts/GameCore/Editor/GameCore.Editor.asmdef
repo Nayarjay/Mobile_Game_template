@@ -1,0 +1,19 @@
+{
+    "name": "GameCore.Editor",
+    "rootNamespace": "GameCore.Editor",
+    "references": [
+        "GameCore",
+        "GameCore.Notifications"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

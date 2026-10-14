@@ -1,0 +1,28 @@
+{
+    "name": "GameCore",
+    "rootNamespace": "GameCore",
+    "references": [
+        "UnityEngine.UI",
+        "Unity.LevelPlay",
+        "Unity.Services.Core",
+        "Unity.Services.Core.Environments",
+        "Unity.Services.Authentication",
+        "Unity.Services.Leaderboards",
+        "Unity.Services.Analytics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.services.analytics",
+            "expression": "6.0.0",
+            "define": "GAMECORE_ANALYTICS"
+        }
+    ],
+    "noEngineReferences": false
+}
